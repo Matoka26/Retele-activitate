@@ -1,0 +1,43 @@
+  Part1:
+          Step2:
+                  e. Pentru a gasi adresa MAC a destiantiei
+  
+                  g. Adresa IP pentru destinatie a devenit FF02::1
+                     Adresele MAC ale destinatiei si sursei
+  
+                  h. Nu deoarece switch-ul nu schimba informatiile
+                  
+                  i. Ethernet II DEST ADDR: 3333.FF00.000B
+                     Ethernet II SRC ADDR: 0040.0BD2.243E
+		     IPv6 SRC IP: 2001:DB8:ACAD1::B
+	             IPv6 DST IP: FF02::1:FF00:B
+  
+                  j. Adresa IPv6 nu se potriveste cu adresa router-ului 
+		
+		  l. Da,sunt cunoscute si adresa sursei si a destinatiei
+						
+		  m. 128
+		  
+		  o. PCA1 deja stie adresa MAC a lui PCA2 si nu mai e nevoie sa o afle
+		  
+   Part2:
+   	Step1:
+   		f. PCA1-> FE80:201:42FF:FE7E:E8ED 
+   		
+   		g. Adresa MAC a interfetei G/0/0/0 a lui RTA 0001.961D.6301
+   		
+   		m. Nu deoarece toate adresele vecine sunt cunoscute
+   		
+   		n. Interfata G/0/0/1 a lui RTA
+   		   Pentru ca destinatia se afla in alta retea, PCB1 trebuie sa trimita cererea la Network Address
+   		  
+   	Step2:
+   		b. 5
+		d. Da,adresa MAC si IPv6
+		
+Reflection Questions:
+	1. Cand adresa MAC a destinatiei nu este cunoscuta
+	2. Routerul tine minte adresele pentru a nu face de fiecare data NDP
+	3. 
+	4. Cand sunt in retele diferite, router-ul trebuie sa caute adresa MAC pentru destinatie
+	
