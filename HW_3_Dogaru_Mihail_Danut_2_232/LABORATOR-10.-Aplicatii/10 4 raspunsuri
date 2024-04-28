@@ -1,0 +1,16 @@
+Destination				Average Round Trip Time (ms)		TTL / Hop Limit
+
+192.168.1.10				4ms					128
+2001:db8:acad:1::10			4ms					128
+192.168.1.1 (R1)			1ms					255		
+2001:db8:acad:1::1 (R1)			1ms					255
+192.168.1.2 (S1)			0ms					255		
+2001:db8:acad:1::2(S1)			0ms					255		
+64.100.0.2 (R1)				0ms					255
+2001:db8:acad::2 (R1)			0ms					255
+64.100.0.1 (ISP)			1ms					254
+2001:db8:acad::1 (ISP)		 	0ms					254
+209.165.200.225 (ISP G0/0/1)		 -					 -
+2001:db8:acad:200::225 (ISP G0/0/1)	 -					 -
+209.165.200.226 (External)		 - 					 -
+2001:db8:acad:200::226 (External)	 - 					 -
