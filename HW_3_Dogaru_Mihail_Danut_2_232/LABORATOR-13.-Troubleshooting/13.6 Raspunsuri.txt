@@ -1,0 +1,6 @@
+Part1:
+	Step2:
+		-Default Gateway si DNS Server nu e setat pe PC-A
+		-Default Gatewayul din S1 este setat cu NA
+		-Interfata F0/5 din S1 avea o viteza de 10 setata half duplex
+		-Interfata G0/0/1 din R1 avea o viteza de 10 setata half duplex
